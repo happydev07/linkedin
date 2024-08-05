@@ -12,7 +12,7 @@ def read_query_from_file(file_path):
         return None
 
 def query_openai_direct(text):
-    api_key = 'sk-proj-WlzuHEvU9U3NO9PV1iz2T3BlbkFJPO5ySfmPLnWVTwxSA93g'
+    #api_key = 'sk-proj-WlzuHEvU9U3NO9PV1iz2T3BlbkFJPO5ySfmPLnWVTwxSA93g'
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
@@ -47,7 +47,7 @@ def copy_and_modify_docx(source_file, destination_file, new_text):
     print(f"File copied and text replaced from {source_file} to {destination_file}")
 
 # Specify the file path where the query is stored
-query_file_path = r'C:\Users\devra\Desktop\Normal_JobApp_Email\prompt.txt'
+query_file_path = 'C:\\Users\\devra\\Desktop\\BulkMail_JobApplication\\prompt.txt'
 
 # Read the query from the file
 query_text = read_query_from_file(query_file_path)
@@ -58,9 +58,9 @@ if query_text:
         response_content = query_openai_direct(query_text)
         if response_content:
             # Perform file operations
-            delete_if_exists(r'C:\Users\devra\Desktop\Normal_JobApp_Email\AwsDevopsDeoraj.docx')
-            copy_and_modify_docx(r'C:\Users\devra\Desktop\Normal_JobApp_Email\deoraj.docx', 
-                                 r'C:\Users\devra\Desktop\Normal_JobApp_Email\AwsDevopsDeoraj.docx', 
+            delete_if_exists('C:\\Users\\devra\\Desktop\\BulkMail_JobApplication\\AwsDevopsDeoraj.docx')
+            copy_and_modify_docx('C:\\Users\\devra\\Desktop\\BulkMail_JobApplication\\deoraj.docx', 
+                                 'C:\\Users\\devra\\Desktop\\BulkMail_JobApplication\\AwsDevopsDeoraj.docx', 
                                  response_content)
     except Exception as e:
         print(f"An error occurred while querying OpenAI: {e}")
