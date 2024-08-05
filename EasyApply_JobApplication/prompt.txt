@@ -1,0 +1,43 @@
+Based on the following job description, create a customized my worked tasks that highlights my suitability for the role and is ATS friendly in bulletted point with including important keywords. 
+The job description should ensure that my resume scores highest ATS score. 
+Ensure that recruiter is not able to identify that the applicant has directly copied from published job responsibilities by changing and randomizing ATS friendly high scoring words.
+don't give any commentary but just the job details. 
+Never include GCP and AZURE in cloud experience instead use only AWS. 
+Never use word Spearheaded, ideally. 
+Never include educational qualification and certifications. 
+Never mention number of years. 
+never include experience for developer, C#,powershell, Java, .net, nodejs, go, powershell, javascript, chef, puppet, perl, MySQL, Open Shift, Gradle, C++, CircleCI, Spinnaker, Scala, KSQ.
+Write atleast 15 bulletted points.
+
+
+
+
+
+
+
+ 
+
+About the role:  Responsible for guiding teams towards continuous integration and continuous deployment; hence, he must have extensive knowledge of the automation tools and their application like Gradle, Git, Jenkins, Bamboo, Docker, Kubernetes, Puppet Enterprise, Nagios, Chef, and Ansible. The DevOps tackles our organization’s toughest technical problems and drives technical excellence at all levels, working with senior management to support the execution of the organization’s vision. The DevOps / Sr. Devops/ Lead Devops is a person who cares deeply about the technical side of operations and makes sure that everything is running smoothly for our applications. The ideal candidate understands technology deeply at both the server level and at the development level, comprehends the gaps, and is excited about filling those gaps and taking proactive steps to prevent application emergencies from ever happening.
+
+Expectations/ Requirements
+
+ 3- 5 years of overall experience.
+ 3 years of relevant experience in Devops.
+ Should have experience in AWS.
+ Linux OS/application installation and configuration.
+ Shell/Bash/Python scripting.
+ Experience in building, deploying and operating infrastructure and applications.
+ Cloud experience: AWS (Azure/Google Cloud).
+ CI/CD tools: Kubernetes, Jenkins/Bamboo/GitLab, Chef/Puppet/Ansible, Maven/Nexus.
+ Ability to oversee and mentor junior software developers, as well as report to management.
+ Ability to ensure smooth software deployment by writing script updates and running diagnostics.
+
+
+Superpowers/ Skills that will help you succeed in this role 
+
+ High level of drive, initiative and self-motivation
+ Ability to take internal and external stakeholders along
+ Understanding of Technology and User Experience
+ Love for simplifying
+ Growth Mindset
+ Willingness to experiment and improve continuously

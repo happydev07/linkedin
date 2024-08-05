@@ -1,0 +1,4 @@
+I am reaching out to inquire, if you might be aware of any open positions for an AWS DevOps SRE role. I found your contact information through LinkedIn post you did to publish job. I would be grateful if you could forward my resume to the opportunity you mentioned in Linkedin. Please ignore if this mail is irrelevant.
+
+
+=IF(COUNTIF(Sheet1!A:A, A1) > 0, "Present", "Absent")
