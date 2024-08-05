@@ -12,7 +12,6 @@ def read_query_from_file(file_path):
         return None
 
 def query_openai_direct(text):
-    #api_key = 'sk-proj-WlzuHEvU9U3NO9PV1iz2T3BlbkFJPO5ySfmPLnWVTwxSA93g'
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {api_key}'
